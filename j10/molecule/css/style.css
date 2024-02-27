@@ -1,0 +1,55 @@
+footer {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    background-color: #45a1ff;
+    color: #fff;
+  }
+  .titre{
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+  }
+.bouton{
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+.link{
+    display: flex;
+    justify-content: center;
+}
+.carousel {
+    margin-bottom: 4rem;
+  }
+  /* Since positioning the image, we need to help out the caption */
+  .carousel-caption {
+    bottom: 3rem;
+    z-index: 10;
+  }
+  
+  /* Declare heights because of positioning of img element */
+  .carousel-item {
+    height: 32rem;
+    background-color: #777;
+  }
+  .carousel-item > img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    height: 32rem;
+  }
+  .resize{
+    background-image: url(https://t4.ftcdn.net/jpg/02/16/94/65/360_F_216946587_rmug8FCNgpDCPQlstiCJ0CAXJ2sqPRU7.jpg); background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+  }
+  
